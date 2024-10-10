@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script type="module" defer src="./webserver/init.js"></script>
+    <title>Flights Dashboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">TLV Flights Information</h1>
+        <div class="form-group">
+            <input type="text" id="input_search" class="form-control" placeholder="Enter country name">
+            <button id="search_btn" class="btn btn-primary">Search</button>
+        </div>
+
+        <div class="card">
+            <h2>Number of Flights: <span id="num_flights_by_country"></span></h2>
+            <h2>Number of Inbound Flights: <span id="in_num_flights_by_country"></span></h2>
+            <h2>Number of Outbound Flights: <span id="out_num_flights_by_country"></span></h2>
+        </div>
+
+        <div class="card">
+            <h2>Number of Flights: <span id="num_flights"></span></h2>
+            <h2>Number of Inbound Flights: <span id="in_num_flights"></span></h2>
+            <h2>Number of Outbound Flights: <span id="out_num_flights"></span></h2>
+            <h2>Number of Delayed Flights: <span id="dl_num_flights"></span></h2>
+            <h2>Favorite Destination: <span id="fav_dest"></span></h2>
+        </div>
+        <div id="flight_table" class="card">
+            <!-- Table will be created here -->
+        </div>
+    </div>
+</body>
+
+</html>

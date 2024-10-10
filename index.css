@@ -1,0 +1,89 @@
+/* index.css */
+body {
+    background-color: antiquewhite; /* Light gray background */
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: chocolate;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input_search {
+    max-width: 300px;
+    margin-right: 10px;
+}
+
+#search_btn {
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+#search_btn:hover {
+    background-color: #6054bb;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.card h2 {
+    color: #000000;
+    font-weight: bold;
+}
+
+.card span {
+    color: #000000;
+    font-weight: normal;
+}
+
+#flight_table {
+    margin-top: 30px;
+}
+
+#flight_table table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+}
+
+#flight_table th,
+#flight_table td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    background-color: #f9f9f9;
+    color: #495057;
+}
+
+#flight_table th {
+    background-color: #7da8d5;
+    color: white;
+    font-weight: bold;
+}
+
+#flight_table tr:nth-child(even) {
+    background-color: #e9ecef;
+}
